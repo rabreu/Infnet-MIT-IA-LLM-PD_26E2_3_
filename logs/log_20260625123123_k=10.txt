@@ -1,0 +1,20 @@
+******************************************************************
+Parametros:
+k_vector_size = 10
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 02m 10s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Responsta:
+No contexto fornecido, não há menção clara a **medicações específicas** como objeto de alertas ou problemas. Os alertas mencionados são sobre **equipamentos médicos (GE Healthcare e Equipamentos Médico-Hospitalares Ltda.)** e **medicamentos da Libbs**, mas não listam nomes de substâncias ou fármacos.
+
+Se referir-se aos alertas sobre **medicamentos da Libbs**, o CNPJ da empresa é **00.029.372/0001-40**, e o **primeiro alerta** (11/05/2024) menciona uma **caixa secundária (caixa de conservação) defeituosa** do medicamento, sem especificar o nome da medicação.
+
+Se precisar de mais detalhes sobre o **alerta da Libbs**, é o **número 11/05/2024**. Caso seja sobre **GE Healthcare**, os alertas são sobre **equipamentos de imagem médica (ex.: tomógrafos)**, não medicamentos.

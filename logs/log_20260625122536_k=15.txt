@@ -1,0 +1,20 @@
+******************************************************************
+Parametros:
+k_vector_size = 15
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 01m 57s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Responsta:
+No contexto fornecido, **não há menção a medicamentos específicos** (como nomes de fármacos ou substâncias) em alertas ou recomendações da Anvisa ou empresas citadas.
+
+Se referir a **equipamentos médicos** ou **produtos da GE Healthcare**, os alertas mencionam problemas em sistemas de imagem (como tomógrafos) ou dispositivos de infusão, mas **não citam medicamentos**.
+
+Se precisar de informações sobre **medicamentos específicos** (como a Qdenga), verifique o contexto relacionado a vacinas ou alertas de farmacovigilância. Caso contrário, não há dados sobre medicamentos citados.

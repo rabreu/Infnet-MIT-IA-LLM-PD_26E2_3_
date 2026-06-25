@@ -1,0 +1,35 @@
+******************************************************************
+Parametros:
+k_vector_size = 35
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 17m 08s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Responsta:
+No contexto fornecido, as seguintes medicações foram mencionadas em alertas da **Anvisa**:
+
+1. **Clobutinol** (Alerta não especificado no número, mas relacionado a notificações de eventos adversos no sistema VigiMed).
+   - **CNPJ da empresa detentora do registro**: 18.747.319/0001-40 (Total Medical Brasil).
+
+2. **Finasterida e Dutasterida** (Alerta **3631**).
+   - **CNPJ da empresa detentora do registro**: 08.546.929/0001-22 (Carestream Health).
+
+3. **Fosfoetanolamina** (Não citado em alerta específico, mas mencionado como substância sem aprovação da Anvisa).
+
+4. **Hidroxicloroquina e Cloroquina** (Alerta relacionado à **Portaria da Anvisa** sobre controle de produtos para COVID-19, mas não especificado número de alerta).
+
+5. **Medicamentos para disfunção erétil** (como sildenafila, vardenafila e tadalafila) – mencionados em estudos e alertas sobre uso recreativo (sem número de alerta específico).
+
+6. **Qdenga** (Vacina contra dengue) – Alertas relacionados à vigilância sanitária, mas não citado com número específico.
+
+7. **Medicamentos com grafia ou som semelhantes** (exemplo: *Curcumina* e extratos com alto teor de curcumina) – não citado em alerta formal, mas mencionado em contexto de riscos à saúde.
+
+---
+**Nota**: O alerta mais recente específico para **finasterida/dutasterida** é o **3631**. Para clobutinol, não há número de alerta explicitado, mas está associado a notificações no VigiMed.
