@@ -1,0 +1,38 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512
+k_vector_size = 35
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 23m 19s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais recentemente registradas ou com maior atuação ativa** (priorizando data de vencimento mais próxima e status atualizado) são:
+
+1. **RECONTER ODT**
+   - **Data de Vencimento do Registro:** 01/01/2033
+   - **Empresa:** LIBBS FARMACÊUTICA LTDA (CNPJ: 61.230.314/0001-75)
+   - **Número do Processo:** 25351.220265/2021-14
+   - **Situação:** Ativo
+   - Fonte: [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/2048180)
+
+2. **LIACLYSAL**
+   - **Data de Vencimento do Registro:** 01/12/2027
+   - **Empresa:** MULTILAB INDUSTRIA E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA (CNPJ: 92.265.552/0009-05)
+   - **Número do Processo:** 25351.065409/2022-36
+   - **Situação:** Ativo
+   - Fonte: [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/3544968)
+
+3. **NIFLAG**
+   - **Data de Vencimento do Registro:** 07/07/2029
+   - **Empresa:** MULTILAB INDUSTRIA E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA (CNPJ: 92.265.552/0009-05)
+   - **Número do Processo:** 25351.065371/2022-00
+   - **Situação:** Ativo
+   - Fonte: [Consulta Anvisa](https://consultas.anvisa.gov.br/#/med

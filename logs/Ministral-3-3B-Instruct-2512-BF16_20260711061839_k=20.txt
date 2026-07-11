@@ -1,0 +1,30 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512-BF16
+k_vector_size = 20
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 26m 28s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as medicações mais citadas (com maior número de ocorrências) são:
+
+1. **TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICIDINA + NISTATINA**
+   - **Número de registros**: 2 (processos **25351.428780/2006-01** e **25351.428948/2006-71**)
+   - **CNPJ da empresa**: 50.929.710/0001-79 ([Medley Indústria Farmacêutica LTDA](https://consultas.anvisa.gov.br/#/medicamentos/492455) e [https://consultas.anvisa.gov.br/#/medicamentos/492454](https://consultas.anvisa.gov.br/#/medicamentos/492454)).
+
+2. **AMOXICILINA TRIHIDRATADA + CLAVULANATO DE POTASSIO**
+   - **Número de registros**: 2 (processos **25000.024340/97-44** e **25000.010298/90**)
+   - **CNPJ das empresas**:
+     - **Asta Médica LTDA** (71.524.631/0001-58) ([https://consultas.anvisa.gov.br/#/medicamentos/798](https://consultas.anvisa.gov.br/#/medicamentos/798)).
+     - **Glaxosmithkline Brasil LTDA** (33.247.743/0001-10) ([https://consultas.anvisa.gov.br/#/medicamentos/164989](https://consultas.anvisa.gov.br/#/medicamentos/164989)).
+
+---
+**Nota**: Os medicamentos **citalopram** (1 registro) e **PLAMIDASIL**

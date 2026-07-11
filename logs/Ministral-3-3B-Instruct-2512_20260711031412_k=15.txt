@@ -1,0 +1,32 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512
+k_vector_size = 15
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 17m 22s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais citadas** (com maior frequência de registros ativos ou recentes) são:
+
+1. **GLICOSE MONOIDRATADA + CLORETO DE SÓDIO + LACTATO DE SÓDIO + CLORETO DE CÁLCIO DIIDRATADO + CLORETO DE MAGNÉSIO HEXAIDRATADO**
+   - **Empresa:** EUROFARMA LABORATORIOS S.A. (CNPJ: **61.190.096/0001-92**)
+   - **Data de vencimento do registro:** 01/12/2017
+   - **Processo:** [25351.118971/2012-41](https://consultas.anvisa.gov.br/#/medicamentos/828283)
+
+2. **citalopram**
+   - **Empresa:** NOVARTIS BIOCIENCIAS S.A. (CNPJ: **56.994.502/0001-30**)
+   - **Data de vencimento do registro:** 01/09/2027
+   - **Processo:** [25351.472974/2017-99](https://consultas.anvisa.gov.br/#/medicamentos/1203321)
+
+---
+**Observação:**
+- O medicamento **"RECONTER"** (LIBBS FARMACÊUTICA LTDA) é o único com registro **ativo** (vencimento em 01/02/2036).
+- Os demais medicamentos listados estão **inativos** e com registros mais antigos ou próximos ao fim do prazo.

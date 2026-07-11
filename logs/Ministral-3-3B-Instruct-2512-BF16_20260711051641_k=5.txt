@@ -1,0 +1,30 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512-BF16
+k_vector_size = 5
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 10m 15s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais recentes** (com registro mais atual) são:
+
+1. **GLICOSE MONOIDRATADA + CLORETO DE SÓDIO + LACTATO DE SÓDIO + CLORETO DE CÁLCIO DIIDRATADO + CLORETO DE MAGNÉSIO HEXAIDRATADO**
+   - **Data de vencimento do registro:** 01/12/2017
+   - **Empresa:** EUROFARMA LABORATORIOS S.A. (CNPJ: **61.190.096/0001-92**)
+   - **Número do processo:** 25351.118971/2012-41
+   - Fonte: [Consulta ANVISA](https://consultas.anvisa.gov.br/#/medicamentos/828283)
+
+---
+2. **MIORRELAX**
+   - **Data de vencimento do registro:** 01/05/2011
+   - **Empresa:** NEOLATINA COMÉRCIO E INDÚSTRIA FARMACEUTICA S.A. (CNPJ: **61.541.132/0001-15**)
+   - **Número do processo:** 25351.005244/01-75
+   - Fonte: [Consulta ANVISA](https://consultas.anvisa.gov.br/#/medicamentos/3628)

@@ -1,0 +1,27 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512-BF16
+k_vector_size = 10
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 13m 24s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais recentes** (com data de vencimento do registro mais próxima) são:
+
+1. **GLICOSE MONOIDRATADA + CLORETO DE SÓDIO + LACTATO DE SÓDIO + CLORETO DE CÁLCIO DIIDRATADO + CLORETO DE MAGNÉSIO HEXAIDRATADO**
+   - **Empresa:** EUROFARMA LABORATORIOS S.A. (CNPJ: **61.190.096/0001-92**)
+   - **Data de vencimento:** 01/12/2017
+   - **Número do processo:** [25351.118971/2012-41](https://consultas.anvisa.gov.br/#/medicamentos/828283)
+
+2. **TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICIDINA + NISTATINA**
+   - **Empresa:** MEDLEY INDÚSTRIA FARMACÊUTICA LTDA. (CNPJ: **50.929.710/0001-79**)
+   - **Data de vencimento:** 01/06/2017
+   - **Número do processo:** [25351.428780/2006-01](https://consultas.anvisa.gov.br/#/medicamentos/492455)

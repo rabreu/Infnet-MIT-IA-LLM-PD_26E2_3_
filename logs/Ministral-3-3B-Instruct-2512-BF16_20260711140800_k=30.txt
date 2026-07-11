@@ -1,0 +1,31 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512-BF16
+k_vector_size = 30
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 28m 40s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais citadas** (com maior frequência de registros ativos ou recentes) são:
+
+1. **citalopram**
+   - **CNPJ da empresa**: 61.541.132/0001-15 (Neolatina) e **33.069.212/0001-84 (Merck S/A)**.
+   - **Número de processos**:
+     - [25351.005244/01-75](https://consultas.anvisa.gov.br/#/medicamentos/3628) (Neolatina, vencimento **01/05/2011**).
+     - [25351.472974/2017-99](https://consultas.anvisa.gov.br/#/medicamentos/1203321) (Novartis, vencimento **01/09/2027**).
+     - [25351.336601/2017-55](https://consultas.anvisa.gov.br/#/medicamentos/1177730) (Merck, vencimento **01/07/2027**).
+   - *Nota*: É o medicamento com mais registros ativos ou recentes de **Genérico** (categoria regulatória) no contexto.
+
+2. **RECONTER** e **RECONTER ODT**
+   - **CNPJ da empresa**: 61.230.314/0001-75 (Libbs Farmacêutica).
+   - **Número de processos**:
+     - [25351.529902/2009-52](https://consultas.anvisa.gov.br/#/medicamentos/731004) (vencimento **01/02/2036**).
+     - [25351.220265/2021-14](https://consultas.anvisa.gov.br/#/medicamentos/2048180) (

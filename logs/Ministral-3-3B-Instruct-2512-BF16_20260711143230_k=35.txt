@@ -1,0 +1,42 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512-BF16
+k_vector_size = 35
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 24m 29s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais citadas** (com maior frequência de menção e/ou recentes registros) são:
+
+1. **citalopram**
+   - **Situação atual**: Inativo
+   - **Data de vencimento do registro**: 27/07/2027
+   - **Empresa**: Merck S/A (CNPJ: 33.069.212/0001-84)
+   - **Número do processo**: 25351.336601/2017-55
+   - Fonte: [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/1177730)
+
+2. **RECONTER**
+   - **Situação atual**: Ativo
+   - **Data de vencimento do registro**: 01/01/2033
+   - **Empresa**: Libbs Farmacêutica Ltda (CNPJ: 61.230.314/0001-75)
+   - **Número do processo**: 25351.220265/2021-14
+   - Fonte: [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/2048180)
+
+3. **RECONTER ODT**
+   - **Situação atual**: Ativo
+   - **Data de vencimento do registro**: 01/01/2033
+   - **Empresa**: Libbs Farmacêutica Ltda (CNPJ: 61.230.314/0001-75)
+   - **Número do processo**: 25351.220265/2021-14 *(mesmo processo que o RECONTER, mas com nova categoria "Novo")*
+   - Fonte: [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/2048180)
+
+4. **APLUC**
+   - **Situação atual**: Ativo (duas versões com registros recentes)
+   - **Data de vencimento do

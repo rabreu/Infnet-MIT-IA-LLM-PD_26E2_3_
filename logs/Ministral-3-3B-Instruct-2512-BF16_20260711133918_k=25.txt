@@ -1,0 +1,40 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512-BF16
+k_vector_size = 25
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 25m 20s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as medicações **mais recentemente registradas ou com maior atuação atual** (considerando **data de vencimento do registro mais próxima** e **atividade atualizada) são:
+
+1. **RECONTER ODT**
+   - **Data de vencimento do registro:** 01/01/2033
+   - **Situação atual:** Ativo
+   - **CNPJ da empresa:** 61.230.314/0001-75
+   - **Número do processo:** 25351.220265/2021-14
+   - **Fonte:** [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/2048180)
+
+2. **APLUC**
+   - **Data de vencimento do registro (mais recente):**
+     - 01/11/2035 (processo 25351.164021/2025-60)
+   - **Situação atual:** Ativo
+   - **CNPJ da empresa:** 73.856.593/0001-66
+   - **Fonte:** [Consulta Anvisa](https://consultas.anvisa.gov.br/#/medicamentos/3876710)
+
+---
+### **Medicações mais recentes (inativas, mas com registro mais próximo)**:
+- **GLICOSE MONOIDRATADA + CLORETO DE SÓDIO + LACTATO DE SÓDIO + CLORETO DE CÁLCIO + CLORETO DE MAGNÉSIO HEXAIDRATADO**
+  - **Data de vencimento:** 01/12/2017
+  - **Situação:** Inativo
+  - **CNPJ da empresa:** 61.190.096/0001-92
+  - **Número do processo:** 25351.118971/2012-41
+  - **Fonte:** [Consulta Anvisa](https://consultas.anvis

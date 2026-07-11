@@ -1,0 +1,34 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512
+k_vector_size = 25
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 27m 49s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais citadas** (com maior frequência de menção) e com registros mais recentes são:
+
+1. **citalopram** (Genérico)
+   - **Empresa**: Novartis Biociências S.A. (CNPJ: 56.994.502/0001-30) e Merck S/A (CNPJ: 33.069.212/0001-84)
+   - **Número de processos**:
+     - **25351.472974/2017-99** (Novartis) – [Fonte](https://consultas.anvisa.gov.br/#/medicamentos/1203321)
+     - **25351.336601/2017-55** (Merck) – [Fonte](https://consultas.anvisa.gov.br/#/medicamentos/1177730)
+   - **Data de vencimento mais recente**: 01/07/2027.
+
+2. **RECONTER** e **RECONTER ODT** (similar e novo)
+   - **Empresa**: Libbs Farmacêutica Ltda. (CNPJ: 61.230.314/0001-75)
+   - **Número de processos**:
+     - **25351.529902/2009-52** (RECONTER) – [Fonte](https://consultas.anvisa.gov.br/#/medicamentos/731004)
+     - **25351.220265/2021-14** (RECONTER ODT) – [Fonte](https://consultas.anvisa.gov.br/#/medicamentos/2048180)
+   - **Data de vencimento mais recente**: 01/01/2033.
+
+---
+**Nota**: O contexto não menciona a **quantidade de vezes que cada medicamento foi citado**, mas destaca que **RECONTER e RECONTER ODT** são os registros mais recentes (2

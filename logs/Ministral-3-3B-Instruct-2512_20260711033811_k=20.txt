@@ -1,0 +1,32 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512
+k_vector_size = 20
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 23m 58s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais citadas** (com maior frequência de ocorrências) são:
+
+1. **TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICIDINA + NISTATINA**
+   - **CNPJ da empresa**: 50.929.710/0001-79
+   - **Números de processos**:
+     - 25351.428780/2006-01 ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/492455))
+     - 25351.428948/2006-71 ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/492454))
+
+2. **NEOLATINA COMÉRCIO E INDÚSTRIA FARMACEUTICA S.A.** (empresa citada em dois medicamentos distintos):
+   - **Medicamentos**:
+     - **MIORRELAX** (25351.005244/01-75)
+     - **MEGLUNIOSE** (25000.011593/99-29)
+   - **CNPJ**: 61.541.132/0001-15
+
+---
+**Nota**: Não há um medicamento específico repetido mais vezes que outro no contexto, mas a **TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICIDINA + NISTATINA** aparece com dois registros distintos (processos diferentes). Caso a pergunta se refira à **empresa mais citada**, seria a **NEOLATINA COMÉRCIO E INDÚSTRIA FARMACEUTICA S.A.** ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/3628) e ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/5669)).

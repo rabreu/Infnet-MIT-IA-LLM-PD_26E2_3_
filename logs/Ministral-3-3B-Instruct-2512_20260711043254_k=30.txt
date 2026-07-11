@@ -1,0 +1,35 @@
+******************************************************************
+Parâmetros:
+model_id: mistralai/Ministral-3-3B-Instruct-2512
+k_vector_size = 30
+batch_size = 32
+chunk_size = 512
+chunk_overlay = 50
+do_sample = True
+temperature = 0.2
+Execution time = 00h 26m 52s
+Device = cuda
+******************************************************************
+Pergunta: 
+Quais as medicações mais citadas?
+
+Resposta:
+No contexto fornecido, as **medicações mais citadas** (com maior número de registros ou menções recentes) são:
+
+1. **citalopram** (Genérico)
+   - **Número do processo**: 25351.472974/2017-99 ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/1203321))
+     - **Data de vencimento**: 01/09/2027
+     - **CNPJ da empresa**: 56.994.502/0001-30 (Novartis Biociências S.A.)
+   - **Número do processo**: 25351.336601/2017-55 ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/1177730))
+     - **Data de vencimento**: 01/07/2027
+     - **CNPJ da empresa**: 33.069.212/0001-84 (Merck S/A)
+
+2. **Reconter** (incluindo versões como **Reconter ODT**)
+   - **Número do processo**: 25351.529902/2009-52 ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/731004))
+     - **Data de vencimento**: 01/02/2036
+     - **CNPJ da empresa**: 61.230.314/0001-75 (Libbs Farmacêutica Ltda)
+   - **Número do processo**: 25351.220265/2021-14 ([Fonte](https://consultas.anvisa.gov.br/#/medicamentos/2048180))
+     - **Data de vencimento**: 01/01/2033
+
+3. **APLUC**
+   - **Número do processo**: 25351.171
