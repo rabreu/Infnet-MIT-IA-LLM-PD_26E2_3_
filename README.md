@@ -1,6 +1,6 @@
 # Sistemas Cognitivos com LLMs [26E2_3]
 
-## ANVISA-LLM: Um Pipeline RAG para Consulta de Dados da ANVISA
+## ANVISA-LLM: Uma Pipeline RAG para Consulta de Alertas e Notificações da ANVISA
 
 ### Aluna: Renata Braga de Abreu
 
